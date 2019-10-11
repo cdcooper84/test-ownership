@@ -5,10 +5,6 @@ python:
   - "3.6"
 sudo: false
 
-env:
-  global:
-    - secure: "gD3kHMwwE5FF9dOw5jtPNjJY3ALyXFfBLk0dLdhORWy2PIQ+hXyitrEm85Z79/+qbu64eDoL52/ztBTAJ1cdjtMiuhY3PFP/eytXoX8cHHoxTN7BC8AJRWlUIpi3S/sB4LIyn3mRxEfcMeRbOnQM99l6syB+4PcDpuXU9azDLQC830jkpPwwgnaqo6ecbmVIAUOhlZVGaBjNbgMC1kcy7mDcJTqB8ZzzrJr4si7Mvgxijmn/g5sIVetaKRPDXE7GiH8I3hjdd/KfHKV1mmPDDPuOG427qe1SjAV6+QQqtcywda6hWxLFugWaqyIYv+X93jVk+FHsLOdxM8GJo20k8cBc1rklSfvq4mFaCBp2RQzWsxH4//Wk8p1z4Ah2vAjdjp0xsA3ZmPFEwbx/pNNs/HZdws/th+DMxXov6329Agagyzpj93gcCszoo5vvXoICOKvNbhiiCNRuD7qR5K0iXhu00P5XOrvYKDl/Ifn5+29uKu0KhbOyEQoytmMnT2FYCOkE7dGuHnfn400FlDvOMKVd9eblHLdhfVfYrHtBUXxL2Xr1pEXQFTNACnMEYetzEYfIbVpHiX2z5jlnAvBRpceouz71kqZZ3oX9UsmLHkzFsZK9p0e4VlacOuEeCMCm+7D5wbaXkyBgK1A2PXI9tU6fV4x9HCnh3O2/rdrFcHs="
-
 before_install:
   - MINICONDA_DIR=$HOME/miniconda3
   - wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
