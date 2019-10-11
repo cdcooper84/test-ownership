@@ -21,7 +21,7 @@ before_install:
   - conda config --add channels conda-forge
 
 install:
-  - conda env create --name=py36 python==3.6
+  - conda env create --name=py36 --file=environment.yaml
   - conda activate py36
   - pip install doctr
   - pip install mkdocs python-markdown-math
