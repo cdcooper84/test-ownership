@@ -7,3 +7,4 @@ site_dir: _site
 copyright: Code is licensed under BSD 3-Clause.
 nav:
   - Home: index.md
+  - Changelog: changelog.md
