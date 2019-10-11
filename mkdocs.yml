@@ -1,0 +1,9 @@
+site_name: test-ownership
+site_url: https://github.com/mesnardo/test-ownership
+repo_url: https://github.com/mesnardo/test-ownership
+theme: readthedocs
+docs_dir: docs
+site_dir: _site
+copyright: Code is licensed under BSD 3-Clause.
+nav:
+  - Home: index.md
