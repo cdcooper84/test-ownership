@@ -5,6 +5,11 @@ python:
   - "3.6"
 sudo: false
 
+env:
+  global:
+    # Doctr deploy key for mesnardo/test-ownership
+    - secure: "I9vMJ5z+73fssoH4OIMhle8eJL9JsIPNlAHBhqV1iuMebLUXVN2MSFRwhOHdSmfDAOusEkmiz1xjz0YkZT/QXF6dflG2adtEZPDd6EhJr+dywehCZmR7QbETkOZ6UDy7+bnC9/6pJSZu4HypdijG6XWc4PSinDBBzP4M5wRP6sFzdzpc8pvqspSOiK62a7zuVPYn07zbFVayqa3xkV+1YPWAHJ4Vl7FdFnfeWC6tOAJTgzjj0fsvVXNdjaqZjOInuSDu3Na8RRcVs40JSwZAmdfauyNlSoGKzX9d5Yqglm+H2YxpnGnhvibr7IVV2SCqai4SprfPUnmj4wnbKHZ+S4Bnt7J9oSzFC2nLibU2plG31IVV9fWFzTWj4xAu0O+GZRMATnDEDQ+jLbY7QSF41muYvF6bVeTthAAmpHftCfTBwGqaG9m29PTKG7L5EOMltqOSGd+XkumvoRLEfMi9yLfh+DHN0X0qx/vuSsPoj0gGrP7niPKw7m41LiumbZHAe+rFNqXF4mthALGym2Ml8f4ux+GRiooL2UaqYqkkUvFBhPFIR8SX6KbyCXzrAbpopL3GjvPHuSCZA+7j85GltqwHYYOpZG5V3BcqRrQ5cHQcZJr05Sb5OoC5WLR2DWscm8c0uLwAWd4g0WQg0RnXsdZHA1sRc8lAaguSeQeMc6A="
+
 before_install:
   - MINICONDA_DIR=$HOME/miniconda3
   - wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
